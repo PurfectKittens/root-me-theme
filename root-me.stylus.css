@@ -4,11 +4,25 @@
 @version        1.0.0
 @description    Root-me anime theme
 @author         zxlaora & nasu
+@advanced dropdown bg "background (⚠Take a background who can match ⚠)" {
+    Fate "Fate*" <<<EOT https://cdn.discordapp.com/attachments/1179495231104753766/1287410162302451825/AgAnQVY.png?ex=66f171a5&is=66f02025&hm=8f2ce2a1de4a44fd88077885031cbc68d506605f24e5b636c66d8b056ef89dfd& EOT;
+
+	bg-custom-dropdown "Custom" <<<EOT /*[[bg-custom]]*\/ EOT;
+}
+@advanced text bg-custom "background (⚠ Take a background who can match ⚠) (Custom)" "https://example.com/image.png"
+
+@advanced dropdown icon "icon (⚠Take a icon who can match ⚠)" {
+    nasu "nasu*" <<<EOT https://i.imgur.com/VR5b1ss.jpeg EOT;
+
+	bg-custom-dropdown "Custom" <<<EOT /*[[icon-custom]]*\/ EOT;
+}
+@advanced text icon-custom "icon (⚠ Take a icon who can match ⚠) (Custom)" "https://example.com/image.png"
+
 ==/UserStyle== */
 
 @-moz-document domain("root-me.org") {
     body {
-        background: url("https://cdn.discordapp.com/attachments/1179495231104753766/1287410162302451825/AgAnQVY.png?ex=66f171a5&is=66f02025&hm=8f2ce2a1de4a44fd88077885031cbc68d506605f24e5b636c66d8b056ef89dfd&") no-repeat center center fixed !important;
+        background: url('/*[[bg]]*/') no-repeat center center fixed !important;
         background-size: cover !important;
     }
 
@@ -108,7 +122,7 @@
     img.show-for-medium-up.vmiddle.invert[alt="logo https://www.root-me.org"] {
         width: 48px !important;
         height: 48px !important;
-        content: url('https://i.imgur.com/VR5b1ss.jpeg') !important;
+        content: url('/*[[icon-custom]]*/') !important;
         object-fit: contain !important;
         background-color: transparent !important;
         filter: none !important;  
