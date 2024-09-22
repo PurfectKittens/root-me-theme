@@ -1,0 +1,154 @@
+/* ==UserStyle==
+@name           root-me anime
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Root-me anime theme
+@author         zxlaora & nasu
+==/UserStyle== */
+
+@-moz-document domain("root-me.org") {
+    body {
+        background: url("https://cdn.discordapp.com/attachments/1179495231104753766/1287410162302451825/AgAnQVY.png?ex=66f171a5&is=66f02025&hm=8f2ce2a1de4a44fd88077885031cbc68d506605f24e5b636c66d8b056ef89dfd&") no-repeat center center fixed !important;
+        background-size: cover !important;
+    }
+
+    .container, .row, .col-md-12, #main-content, .content, .container-fluid {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        color: #fff;
+    }
+
+    .container, .row, .col-md-12, #main-content, .content, .container-fluid {
+        border: none !important;
+        padding: 15px !important;
+        margin: 0 !important;
+    }
+    .tile {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+        border-radius: 30px !important;
+        padding: 15px !important;
+        color: #fff !important;
+        border: none !important;
+    }
+    .ajax.bind-ajax {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+        border-radius: 50px !important;
+        margin: 10px !important;
+        padding: 20px !important;
+        color: #fff !important;
+        border: none !important;
+    }
+    #aside_wrapper {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+    #aside {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+    .has-dropdown {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .dropdown {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    #aside > nav.top-bar > .top-bar-section li:not(.has-form) a:not(.button) {
+        background-color: rgba(0, 0, 0, 0) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+    .top-bar {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .name {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    #header {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+    #aside_wrapper {
+        position: relative;
+        z-index: 1001; /* meow meow dropdown devant */
+    }
+    #aside > nav.top-bar > div.top-bar-section > ul > li.has-dropdown > ul.dropdown > li {
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        border-radius: 10px !important;
+        margin: 3px !important;
+        padding: 5px  !important;
+    }
+    #header > nav .top-bar-section ul > li > a{
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+        border-radius: 8px !important;
+        margin: 5px !important;
+    }
+    tr {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    #header ul.title-area > li.name > a > span.show-for-large-up.blanc {
+        font-size: 0 !important; /* Hide ROOTME */
+        visibility: hidden !important;
+    }
+    #header ul.title-area > li.name > a > span.show-for-large-up.blanc::before {
+        content: "Meow" !important; /* Custom ROOTME text  */
+        visibility: visible !important;
+        font-family: 'logo';
+        font-size: 40px;
+        line-height: 62px;
+        vertical-align: middle;
+    }
+    img.show-for-medium-up.vmiddle.invert[alt="logo https://www.root-me.org"] {
+        width: 48px !important;
+        height: 48px !important;
+        content: url('https://i.imgur.com/VR5b1ss.jpeg') !important;
+        object-fit: contain !important;
+        background-color: transparent !important;
+        filter: none !important;  
+        -webkit-filter: none !important;  
+        opacity: 1 !important;  
+    }
+    .ts {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .txs.mauto {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .spip {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .mauto {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .left {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .right {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .final {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .row {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .text-center {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .row_odd {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .row_even {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .top-bar-section {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+}
