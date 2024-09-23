@@ -165,4 +165,10 @@
     .top-bar-section {
         background-color: rgba(0, 0, 0, 0) !important;
     }
+    .coloration_code li:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .coloration_code li:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0) !important;
+}
 }
